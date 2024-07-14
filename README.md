@@ -22,13 +22,13 @@ This React application demonstrates how to apply JSON Patch operations to a base
 1. Clone the repository:
 
     ```sh
-    git clone https://github.com/yourusername/react-json-patch.git
+    git clone https://github.com/ayushypatel/Json-patch-to-object.git
     ```
 
 2. Navigate to the project directory:
 
     ```sh
-    cd react-json-patch
+    cd Json-patch-to-object
     ```
 
 3. Install the dependencies:
