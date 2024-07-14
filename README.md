@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+# React JSON Patch Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This React application demonstrates how to apply JSON Patch operations to a base object. It includes a modal dialog for approving or rejecting changes.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Running the Application](#running-the-application)
+- [Folder Structure](#folder-structure)
+- [Contributing](#contributing)
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Display a base object and a list of JSON Patch operations.
+- Open a modal dialog to approve or reject changes.
+- Apply JSON Patch operations to the base object.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+1. Clone the repository:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    ```sh
+    git clone https://github.com/yourusername/react-json-patch.git
+    ```
 
-### `npm run build`
+2. Navigate to the project directory:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    ```sh
+    cd react-json-patch
+    ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Install the dependencies:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    ```sh
+    npm install
+    ```
 
-### `npm run eject`
+## Usage
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Start the development server:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    ```sh
+    npm start
+    ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. Open your browser and navigate to:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    ```
+    http://localhost:3000
+    ```
 
-## Learn More
+3. Interact with the application by clicking on JSON Patch operations to open the modal dialog and either approve or reject the changes.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Running the Application
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+To run the application locally, follow these steps:
 
-### Code Splitting
+1. Ensure you have [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/) installed.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+2. Follow the installation steps mentioned above.
 
-### Analyzing the Bundle Size
+3. Start the application:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+    ```sh
+    npm start
+    ```
 
-### Making a Progressive Web App
+## Folder Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- `src/`: Contains the source code for the application.
+  - `index.css`: Contains the CSS for styling the `App` component.
+  - `App.js`: The main component of the application.
+  - `index.css`: Contains the CSS for styling the overall application.
+  - `index.js`: The entry point of the React application.
+  - `reportWebVitals.js`: Used for measuring performance.
+- `.gitignore`: Specifies which files and directories to ignore in the Git repository.
+- `package-lock.json`: Contains the locked versions of installed dependencies.
+- `package.json`: Contains the project metadata and dependencies.
+- `README.md`: The documentation file for currently reading.
 
-### Advanced Configuration
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Contributions are welcome! Please fork the repository and create a pull request with your changes.
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
